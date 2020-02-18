@@ -580,7 +580,7 @@ corrplot(cor(Station.data[,5:ncol(Station.data)]), type='upper', method='circle'
 #### PREDICTION GRID ####
 ## Create a prediction grid and associated covariates
 library(geoR)
-pred.coords <- pred_grid(c(long_max, long_min), c(lat_min, lat_max), by=0.003)
+pred.coords <- pred_grid(c(long_max, long_min), c(lat_min, lat_max), by=0.005)
 colnames(pred.coords) <- c("longitude", "latitude")
 sp.pred.coords <- st_as_sf(pred.coords, coords=c("longitude","latitude"), crs=4326)
 
@@ -669,5 +669,5 @@ ggplot() +
 
 rm(ny)
 
-save(Grid.data, lat_max, lat_min, long_max, long_min, file = "Prediction_Grid_003.RData")
+save(Grid.data, lat_max, lat_min, long_max, long_min, file = "Prediction_Grid.RData")
 
