@@ -8,6 +8,7 @@ Project for Bayesian Statistics course @polimi 2019/2020
   * *data*: contains all the used data
   * *maps*: contains shapefiles useful for plotting
   * *data_preproc.R*: data loading, cleaning, preparation and preliminary tests and exploratory analysis
+  * *isotropy_test.R*: test data for isotropy
   * *models.R*: models specification, fitting and testing
   * *utils.R*: some utility functions
 * *img*: contains images for the readme
