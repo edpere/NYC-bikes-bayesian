@@ -5,7 +5,7 @@ Project for Bayesian Statistics course @polimi 2019/2020
 ### Structure of the folders
 * report: contains the project report
 * *script*: contains all the R scripts
-  * *data*: contains all the used data
+  * *data*: contains all the used data (some of them must be unzipped)
   * *maps*: contains shapefiles useful for plotting
   * *data_preproc.R*: data loading, cleaning, preparation and preliminary tests and exploratory analysis
   * *isotropy_test.R*: test data for isotropy
